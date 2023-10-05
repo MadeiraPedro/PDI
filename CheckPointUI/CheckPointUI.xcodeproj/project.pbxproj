@@ -12,8 +12,6 @@
 		AA709A572ACB323F0027B067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA709A562ACB323F0027B067 /* Assets.xcassets */; };
 		AA709A5A2ACB323F0027B067 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA709A592ACB323F0027B067 /* Preview Assets.xcassets */; };
 		AA709A642ACB323F0027B067 /* CheckPointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA709A632ACB323F0027B067 /* CheckPointUITests.swift */; };
-		AA709A6E2ACB323F0027B067 /* CheckPointUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA709A6D2ACB323F0027B067 /* CheckPointUIUITests.swift */; };
-		AA709A702ACB323F0027B067 /* CheckPointUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA709A6F2ACB323F0027B067 /* CheckPointUIUITestsLaunchTests.swift */; };
 		AA709A7D2ACB32D10027B067 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA709A7C2ACB32D10027B067 /* AnimationView.swift */; };
 		AA709A7F2ACB32EF0027B067 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA709A7E2ACB32EF0027B067 /* HeaderView.swift */; };
 		AA709A822ACB33190027B067 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA709A812ACB33190027B067 /* ReminderView.swift */; };
@@ -46,8 +44,6 @@
 		AA709A5F2ACB323F0027B067 /* CheckPointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckPointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA709A632ACB323F0027B067 /* CheckPointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPointUITests.swift; sourceTree = "<group>"; };
 		AA709A692ACB323F0027B067 /* CheckPointUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckPointUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA709A6D2ACB323F0027B067 /* CheckPointUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPointUIUITests.swift; sourceTree = "<group>"; };
-		AA709A6F2ACB323F0027B067 /* CheckPointUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPointUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AA709A7C2ACB32D10027B067 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		AA709A7E2ACB32EF0027B067 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		AA709A812ACB33190027B067 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
@@ -85,7 +81,6 @@
 				AA709A802ACB330B0027B067 /* Reminder */,
 				AA709A512ACB323D0027B067 /* CheckPointUI */,
 				AA709A622ACB323F0027B067 /* CheckPointUITests */,
-				AA709A6C2ACB323F0027B067 /* CheckPointUIUITests */,
 				AA709A502ACB323D0027B067 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,15 +122,6 @@
 				AA709A632ACB323F0027B067 /* CheckPointUITests.swift */,
 			);
 			path = CheckPointUITests;
-			sourceTree = "<group>";
-		};
-		AA709A6C2ACB323F0027B067 /* CheckPointUIUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AA709A6D2ACB323F0027B067 /* CheckPointUIUITests.swift */,
-				AA709A6F2ACB323F0027B067 /* CheckPointUIUITestsLaunchTests.swift */,
-			);
-			path = CheckPointUIUITests;
 			sourceTree = "<group>";
 		};
 		AA709A802ACB330B0027B067 /* Reminder */ = {
@@ -298,8 +284,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA709A702ACB323F0027B067 /* CheckPointUIUITestsLaunchTests.swift in Sources */,
-				AA709A6E2ACB323F0027B067 /* CheckPointUIUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
